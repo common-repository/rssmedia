@@ -1,0 +1,39 @@
+.rssimport-jcarousel {
+  border: 1px solid #EDEDED;
+  border-radius: 7px 7px 7px 7px;
+  margin: 10px 0 20px;
+  padding: 20px 15px 15px 15px;
+}
+
+.rssimport-jcarousel-inner {
+  position: relative;
+  overflow: hidden;
+  height: 100px;
+}
+
+.rssimport-jcarousel-inner ul {
+  width: 20000em;
+  position: absolute;
+  list-style: none;
+  margin: 0;
+  padding-top: 6px;
+}
+
+.rssimport-jcarousel-inner li {
+  float: left;
+  margin: 0 10px;
+}
+
+.rssimport-jcarousel-prev, .rssimport-jcarousel-next {
+  color: #003F62;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.rssimport-jcarousel-prev {
+    float: left;
+}
+
+.rssimport-jcarousel-next {
+    float: right;
+}
